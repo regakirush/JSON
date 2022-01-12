@@ -2,6 +2,7 @@ JSON
 
  1. Создать внешний репозиторий c названием JSON.
     Action: "NEW"
+            "Create repository"
 
  2. Клонировать репозиторий JSON на локальный компьютер. 
     Command: git clone JSON
@@ -20,6 +21,9 @@ JSON
 
  7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. 
     Command: vim new.json
+    Action: "i"
+            "ecs"
+    Command: :wq
 
  8. Отправить изменения на внешний репозиторий. 
     Command: git add new.json
@@ -31,10 +35,16 @@ JSON
 
  10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. 
      Command: vim preferences.json 
-
+     Action: "i"
+            "ecs"
+     Command: :wq
+     
  11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON 
      Command: touch skills.json
               vim skills.json
+     Action: "i"
+             "ecs"
+     Command: :wq
 
  12. Отправить сразу 2 файла на внешний репозиторий. 
      Command: git add preferences.json skills.json
@@ -46,12 +56,13 @@ JSON
               "Create new file"
 
  14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-     Command: "Commit new file"
+     Action: "Commit new file"
 
  15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-
- 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
      Action: "Edit this file"
+     
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+     Action: "Commit changes"
 
  17. Синхронизировать внешний и локальный репозиторий JSON 
      Command: git pull

@@ -5,7 +5,7 @@ JSON
             "Create repository"
 
  2. Клонировать репозиторий JSON на локальный компьютер. 
-    Command: git clone JSON
+    Command: git clone https://github.com/regakirush/JSON.git
 
  3. Внутри локального JSON создать файл “new.json”. 
     Command: touch new.json
